@@ -1,0 +1,18 @@
+user:
+  outputs:
+    default:
+      account: tyc70893.us-east-1
+      auth_type: password
+      client_session_keep_alive: false
+      connect_retries: 3
+      connect_timeout: 30
+      database: analytics
+      password: IRULEtheglobe11
+      retry_on_database_errors: true
+      role: null
+      schema: dbt_dsharma
+      threads: 6
+      type: snowflake
+      user: dsharma
+      warehouse: transforming
+  target: default
